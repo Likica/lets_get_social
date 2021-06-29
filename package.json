@@ -1,0 +1,24 @@
+{
+  "name": "lets_get_social",
+  "version": "1.0.0",
+  "description": "An API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. Used JS, Express.js for routing, a MongoDB database and Mongoose ODM",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Likica/lets_get_social.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Likica/lets_get_social/issues"
+  },
+  "homepage": "https://github.com/Likica/lets_get_social#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.0"
+  }
+}
