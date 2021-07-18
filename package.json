@@ -18,7 +18,12 @@
   },
   "homepage": "https://github.com/Likica/lets_get_social#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.1",
     "express": "^4.17.1",
-    "mongoose": "^5.13.0"
-  }
+    "mongoose": "^5.13.0",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.4"
+  },
+  "devDependencies": {}
 }
