@@ -18,7 +18,7 @@ const thoughtController = {
         Thought.findOne({ _id: req.params.thoughtId })
             .then((dbThoughtData) => {
                 if (!dbThoughtData) {
-                    return res.status(404).json({ message: 'No thought with this id!' });
+                    return res.status(404).json({ message: 'We cannot find thought with this ID!' });
                 }
                 res.json(dbThoughtData);
             })
@@ -39,10 +39,10 @@ const thoughtController = {
             })
             .then((dbUserData) => {
                 if (!dbUserData) {
-                    return res.status(404).json({ message: 'Thought created but no user with this id!' });
+                    return res.status(404).json({ message: 'Nice job on posting the thought but we do not have user with this id!' });
                 }
 
-                res.json({ message: 'Thought successfully created!' });
+                res.json({ message: 'You have posted your thought!' });
             })
             .catch((err) => {
                 console.log(err);
@@ -54,7 +54,7 @@ const thoughtController = {
         Thought.findOneAndUpdate({ _id: req.params.thoughtId }, { $set: req.body }, { runValidators: true, new: true })
             .then((dbThoughtData) => {
                 if (!dbThoughtData) {
-                    return res.status(404).json({ message: 'No thought with this id!' });
+                    return res.status(404).json({ message: 'We cannot find thought with this ID' });
                 }
                 res.json(dbThoughtData);
             })
@@ -68,7 +68,7 @@ const thoughtController = {
         Thought.findOneAndRemove({ _id: req.params.thoughtId })
             .then((dbThoughtData) => {
                 if (!dbThoughtData) {
-                    return res.status(404).json({ message: 'No thought with this id!' });
+                    return res.status(404).json({ message: 'We cannot find thought with this ID!' });
                 }
 
                 // remove thought id from user's `thoughts` field
@@ -80,9 +80,9 @@ const thoughtController = {
             })
             .then((dbUserData) => {
                 if (!dbUserData) {
-                    return res.status(404).json({ message: 'Thought created but no user with this id!' });
+                    return res.status(404).json({ message: 'Nice job on posting the thought but we do not have user with this id!' });
                 }
-                res.json({ message: 'Thought successfully deleted!' });
+                res.json({ message: 'You have successfully deleted your thought!' });
             })
             .catch((err) => {
                 console.log(err);
@@ -99,7 +99,7 @@ const thoughtController = {
         )
             .then((dbThoughtData) => {
                 if (!dbThoughtData) {
-                    return res.status(404).json({ message: 'No thought with this id!' });
+                    return res.status(404).json({ message: 'We cannot find thought with this ID!' });
                 }
                 res.json(dbThoughtData);
             })
@@ -117,7 +117,7 @@ const thoughtController = {
         )
             .then((dbThoughtData) => {
                 if (!dbThoughtData) {
-                    return res.status(404).json({ message: 'No thought with this id!' });
+                    return res.status(404).json({ message: 'We cannot find thought with this ID!' });
                 }
                 res.json(dbThoughtData);
             })
