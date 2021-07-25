@@ -1,7 +1,7 @@
 <h1 align='center'>lets_get_social</h1>
 
 ### By likica * [Email me](mailto:fahrija_wyroski@live.com) * 
-  * [Walkthrough-video Link](https://drive.google.com/file/d/1b-E5oGb8CAF71Z-sjC9BJusf5sOTJ9-5/view) 
+  * [Walkthrough-video Link](https://drive.google.com/file/d/1mQv8DMtSFcGmBhHLXEpBrKqYxIGPiTNU/view) 
 <br></br>
 
 <p align="center">
