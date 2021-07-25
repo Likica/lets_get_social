@@ -1,37 +1,60 @@
-# lets_get_social
-An API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. Used JS, Express.js for routing, a MongoDB database and Mongoose ODM
+<h1 align='center'>lets_get_social</h1>
+
+### By likica * [Email me](mailto:fahrija_wyroski@live.com) * 
+  * [Walkthrough-video Link](https://drive.google.com/file/d/1b-E5oGb8CAF71Z-sjC9BJusf5sOTJ9-5/view) 
+<br></br>
+
+<p align="center">
+    <img src="https://img.shields.io/github/repo-size/likica/lets_get_social" />
+    <img src="https://img.shields.io/github/issues/likica/lets_get_social" />
+    <img src="https://img.shields.io/github/last-commit/likica/lets_get_social" >
+    </a>
+</p>
+  
+<p align="center">
+<img src="https://img.shields.io/badge/-node.js-green" />
+    <img src="https://img.shields.io/badge/Javascript-blue" />
+    <img src="https://img.shields.io/badge/-mongo-pink" />
+    <img src="https://img.shields.io/badge/jQuery-purple"  />
+    <img src="https://img.shields.io/badge/-express-red" >
+    <img src="https://img.shields.io/badge/-screencastify-darkred" />
+</p>
+
+## Table of contents
+  * [Description](#Description)
+  * [User Story](#User-Story)
+  * [Installation Instructions](#installation-Instructions)
+  * [Contributing](#Contributing)
+  * [Questions](#Questions)
+  * [License](#License)
+ 
+# Description
+##### [Back to Table of Contents](#Table-of-Contents)
+An API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. Used JS, Express.js for routing, a MongoDB database and Mongoose ODM.
+
+## User Story
+##### [Back to Table of Contents](#Table-of-Contents)
+- AS A social media startup
+- I WANT an API for my social network that uses a NoSQL database
+- SO THAT my website can handle large amounts of unstructured data
+## Installation Instructions
+##### [Back to Table of Contents](#Table-of-Contents)
+  * Requirements
+      - User needs to have npm package installed and terminal/bash or VSCode available, as well as ability to test the app in Insomnia
+## Contributing
+##### [Back to Table of Contents](#Table-of-Contents)
+  Others are welcome to contribute, respecting the license which this project is listed under
+
+## Questions
+##### [Back to Table of Contents](#Table-of-Contents)
+  * If you have any questions, please contact me at fahrija_wyroski@live.com
+
+## License 
+##### [Back to Table of Contents](#Table-of-Contents)
+  * License Type: MIT
+    ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+    [License: MIT](https://opensource.org/licenses/MIT)
+    Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
-
-<!---
-***Walkthrough Video: 37%
-
-A walkthrough video that demonstrates the functionality of the social media API must be submitted, and a link to the video should be included in your README file.
-
-The walkthrough video must show all of the technical acceptance criteria being met.
-
-The walkthrough video must demonstrate how to start the application’s server.
-
-The walkthrough video must demonstrate GET routes for all users and all thoughts being tested in Insomnia Core.
-
-The walkthrough video must demonstrate GET routes for a single user and a single thought being tested in Insomnia Core.
-
-The walkthrough video must demonstrate POST, PUT, and DELETE routes for users and thoughts being tested in Insomnia Core.
-
-Walkthrough video must demonstrate POST and DELETE routes for a user’s friend list being tested in Insomnia Core.
-
-Walkthrough video must demonstrate POST and DELETE routes for reactions to thoughts being tested in Insomnia Core.
-
-***Technical Acceptance Criteria: 40%
-
-Satisfies all of the preceding acceptance criteria plus the following:
-
-Uses the Mongoose package (Links to an external site.) to connect to a MongoDB database.
-
-Includes User and Thought models outlined in the Challenge instructions.
-
-Includes schema settings for User and Thought models as outlined in the Challenge instructions.
-
-Includes Reactions as the reaction field's subdocument schema in the Thought model.
-
-Uses functionality to format queried timestamps properly.--->
+  _This README was generated by Likica with_ ❤️ [GitHub Profile](https://github.com/likica)
