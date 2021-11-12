@@ -47,7 +47,7 @@ An API for a social network web application where users can share their thoughts
 
 ## Questions
 ##### [Back to Table of Contents](#Table-of-Contents)
-  * If you have any questions, please contact me at codefin9@hotmail.com)
+  * If you have any questions, please [Email me](mailto:codefin9@hotmail.com) *
 
 ## License 
 ##### [Back to Table of Contents](#Table-of-Contents)
